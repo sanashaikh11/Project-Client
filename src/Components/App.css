@@ -1,0 +1,105 @@
+body,html{
+  height:100vh;
+  width:100vw;
+}
+.tatu{
+  display: flex;
+  column-gap: 10px;
+  box-shadow: 0 0 25px gainsboro;
+}
+/* Amrinder */
+label{
+  font-weight: bolder;
+  color: maroon;
+}
+.form-text{
+  color: red !important;
+  font-size: 60%;
+}
+/* charmi */
+.error{
+  color: red;
+  margin-bottom: 10px;
+}
+.innerlogin{
+  width: 200px;
+  margin:auto;
+}
+.mainlogin{
+  margin-left: 500px;
+  padding: 40px;
+
+}
+.headerlogin{
+  background-color: orange;
+  width: 310px;
+  height: 50px;
+
+  text-align:center ;
+}
+/* sana */
+/* ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+} */
+table{
+  border-collapse: collapse;
+}
+.box{
+  width: 1000px;
+  margin:auto;
+  padding: 40px;
+}
+.box1{
+  width: 300px;
+  padding: 10px;
+}
+.about_img{
+  width: 700px;
+  padding: 10px;
+  margin: 5px;
+}
+.about_who{
+  color:rgb(201, 191, 191);
+  float:right;
+ margin-top: 100px;
+  margin-right: 400px;
+  font-size: 40px;
+  font-style: oblique;
+}
+.about_des{
+ 
+  width: 400px ;
+  max-width: 100% ;
+  margin-top:-400px;
+  margin-right: 250px;
+  float:right;
+  font-size: large;
+  font-style: oblique;
+  color:blue;
+
+ 
+}
+.about_icon{
+  width: 60px;
+margin-bottom:10px ;
+  padding: 10px;
+  margin-left: 58px;
+  
+}
+.about_core{
+ 
+  width: 400px ;
+  max-width: 100% ;
+  margin-top:40px;
+  margin-right: 500px;
+  float:right;
+
+ 
+}
+
+
+.nav-link-top:hover {
+  color:white
+}
