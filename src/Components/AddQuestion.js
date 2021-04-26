@@ -193,7 +193,7 @@ const AddQuestion = props => {
                 'x-auth-token': token
             },
         };
-        axios.get(`${config.localApiUrl}api/tag`, configReq)
+        axios.get(`${config.localApiUrl}api/tags`, configReq)
             .then(resp => {
                 if (resp.status != 200) {
                     console.log(resp);
